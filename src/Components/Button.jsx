@@ -1,8 +1,13 @@
+import { NavLink } from "react-router-dom";
 import "./Hero.css";
 const Button = ({ w, bg_color, text_color, label }) => {
+  const google_map_location = "https://maps.app.goo.gl/gZVkZbsRMXrgjrrS8";
+
   return (
     <div>
-      <button
+      <NavLink
+        to={`${label == "Get direction" ? google_map_location : "/top_menu"}`}
+        target={`${label == "Get direction" ? "_blank" : ""}`}
         style={{
           textAlign: "center",
           display: "flex",
@@ -14,12 +19,14 @@ const Button = ({ w, bg_color, text_color, label }) => {
           borderRadius: "100px",
           padding: "12px",
           fontWeight: "bold",
+          cursor: "pointer",
+
           width: w,
           color: `var(${text_color})`,
           background: `var(${bg_color})`,
         }}>
         {label}
-      </button>
+      </NavLink>
     </div>
   );
 };

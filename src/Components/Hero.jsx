@@ -8,10 +8,10 @@ const Hero = () => {
     <div className=" p-10.5 hero">
       <Navbar />
 
-      <div className="flex flex-col justify-center h-screen font-young-serif text-white ">
+      <div className="w-2/5 flex flex-col justify-center h-screen font-young-serif text-white">
         <h1 className="text-5xl">GRAB YOUR DRINK NOW</h1>
         <br />
-        <div>
+        <div className="flex items-center justify-between">
           <h2 className="text-4xl">IN SENSOK</h2>
           <Button
             w={"215px"}
