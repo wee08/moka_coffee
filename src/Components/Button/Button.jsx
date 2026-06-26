@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import "./Hero.css";
 const Button = ({ w, bg_color, text_color, label }) => {
   const google_map_location = "https://maps.app.goo.gl/gZVkZbsRMXrgjrrS8";
 

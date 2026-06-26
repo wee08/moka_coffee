@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 
 import "./Hero.css";
-import Button from "./Button";
+import Button from "./Button/Button";
 
 const Hero = () => {
   return (
