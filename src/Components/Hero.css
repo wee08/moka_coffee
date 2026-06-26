@@ -1,0 +1,19 @@
+.hero {
+  background-image: url("../assets//image/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+@theme {
+  --font-young-serif: "Young Serif", serif;
+
+  --color-cream: #f9f7f8;
+  --color-primary: #6f1d1b;
+
+  --color-lightwarmbrown: #bb9457;
+  --color-darkbrown: #432818;
+  --color-warmbrown: #99582a;
+  --color-lightbrown: #ffe6a7;
+}

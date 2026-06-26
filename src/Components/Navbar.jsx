@@ -2,12 +2,14 @@ import { NavLink } from "react-router-dom";
 import assets from "../assets/assets.js";
 const Navbar = () => {
   const active_style =
-    "bg-lightwarmbrown rounded-full font-bold border-2 border-darkbrown ";
+    "bg-lightwarmbrown rounded-full font-bold border-2 border-darkbrown text-darkbrown";
 
   const NavItem = ({ to, label }) => (
     <NavLink
       to={to}
-      className={({ isActive }) => `px-6 py-2 ${isActive ? active_style : ""}`}>
+      className={({ isActive }) =>
+        `px-6 py-2 ${isActive ? active_style : "text-white"}`
+      }>
       {label}
     </NavLink>
   );
