@@ -2,10 +2,10 @@
 
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap");
 @theme {
   --font-young-serif: "Young Serif", serif;
-
+  --font-cactus-serif: "Cactus Classical Serif", serif;
   --color-cream: #f9f7f8;
   --color-primary: #6f1d1b;
 
@@ -13,4 +13,14 @@
   --color-darkbrown: #432818;
   --color-warmbrown: #99582a;
   --color-lightbrown: #ffe6a7;
+}
+
+.cactus-classical-serif-regular {
+  font-family: "Cactus Classical Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  background-color: var(--color-cream);
 }

@@ -5,7 +5,7 @@ import Button from "./Button/Button";
 
 const Hero = () => {
   return (
-    <div className=" p-10.5 hero">
+    <div className=" p-10.5 hero ">
       <div className="custom_shape">
         <svg
           data-name="Layer 1"
