@@ -24,28 +24,28 @@ Moka Coffee is a React and Vite coffee shop website concept for a cafe in Sensok
 
 ```text
 moka_coffee/
-├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-├── src/
-│   ├── assets/
-│   │   ├── assets.js
-│   │   └── image/
-│   ├── Components/
-│   │   ├── Button/
-│   │   ├── Hero/
-│   │   ├── Menu/
-│   │   ├── Ourstory/
-│   │   ├── Navbar.jsx
-│   │   └── Navbar_Title.jsx
-│   ├── layout/
-│   │   └── Container.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── masking/
-├── package.json
-└── vite.config.js
+|-- public/
+|   |-- favicon.svg
+|   `-- icons.svg
+|-- src/
+|   |-- assets/
+|   |   |-- assets.js
+|   |   `-- image/
+|   |-- Components/
+|   |   |-- Button/
+|   |   |-- Hero/
+|   |   |-- Menu/
+|   |   |-- Ourstory/
+|   |   |-- Navbar.jsx
+|   |   `-- Navbar_Title.jsx
+|   |-- layout/
+|   |   `-- Container.jsx
+|   |-- App.jsx
+|   |-- index.css
+|   `-- main.jsx
+|-- masking/
+|-- package.json
+`-- vite.config.js
 ```
 
 ## Getting Started
