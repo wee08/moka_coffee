@@ -1,0 +1,29 @@
+/* First Example */
+.card-outer {
+  inline-size: max(20rem, 40vw);
+  aspect-ratio: 1;
+  margin-inline: auto;
+  border: 1px solid currentColor;
+  padding: 5px;
+}
+
+.card {
+  position: relative;
+  inline-size: 100%;
+  block-size: 100%;
+  background: linear-gradient(to right, #90c3fd, #ba71ff, #ff71b8);
+
+  mask-image: url("./menucard.svg");
+
+  mask-position: 20px 30px;
+  mask-position: center;
+
+  mask-size: 50%;
+  mask-size: 50% 25%;
+  mask-size: 50% auto;
+  mask-size: contain;
+
+  mask-repeat: repeat-x;
+  mask-repeat: repeat-y;
+  mask-repeat: no-repeat;
+}

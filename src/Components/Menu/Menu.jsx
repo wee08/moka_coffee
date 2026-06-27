@@ -4,8 +4,10 @@ import Menu_card from "./Menu_card";
 const Menu = () => {
   return (
     <>
-      <Navbar_Title label={"Top Menu"} />
-      <Menu_card />
+      <div className="">
+        <Navbar_Title label={"Top Menu"} />
+        <Menu_card />
+      </div>
     </>
   );
 };

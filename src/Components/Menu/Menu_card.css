@@ -1,9 +1,18 @@
 .bg-card {
-  background-image: url("../../assets/image/menucard.svg");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100vh;
+  width: 33%;
+  min-height: auto;
+  aspect-ratio: 1;
+  padding: 5px;
   position: relative;
+}
+
+.inner_card {
+  position: relative;
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: var(--color-warmbrown);
+
+  mask-image: url("../../assets/image/menucard.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
 }
