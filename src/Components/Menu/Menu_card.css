@@ -16,3 +16,52 @@
   mask-size: contain;
   mask-repeat: no-repeat;
 }
+
+.menu-card-product {
+  isolation: isolate;
+}
+
+.menu-card-product::before {
+  content: "";
+  position: absolute;
+  width: 62%;
+  height: 34%;
+  left: 50%;
+  bottom: -7%;
+  transform: translateX(-50%) rotate(-10deg);
+  border-radius: 999px;
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgba(67, 40, 24, 0.45) 0%,
+      rgba(67, 40, 24, 0.22) 46%,
+      rgba(67, 40, 24, 0) 72%
+    );
+  filter: blur(18px);
+  z-index: -2;
+}
+
+.menu-card-product::after {
+  content: "";
+  position: absolute;
+  width: 72%;
+  height: 82%;
+  left: 50%;
+  top: 7%;
+  transform: translateX(-50%) rotate(20deg);
+  border-radius: 45% 55% 48% 52%;
+  background: rgba(67, 40, 24, 0.2);
+  filter: blur(26px);
+  z-index: -1;
+}
+
+.menu-card-img {
+  filter: drop-shadow(18px 24px 26px rgba(67, 40, 24, 0.28));
+}
+
+.circle {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+  z-index: 0;
+}

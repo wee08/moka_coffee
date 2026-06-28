@@ -4,14 +4,16 @@ import "./Menu_card.css";
 const Menu_card = () => {
   return (
     <>
-      <img
-        src={assets.chocolate}
-        alt="chocolate drink"
-        className="w-60  0 h-75 items-start rotate-20 relative translate-y-45 -translate-x-4 z-100"
-      />
+      <div className="menu-card-product absolute z-100 flex flex-col items-center justify-end ">
+        <img
+          src={assets.chocolate}
+          alt="chocolate drink"
+          className="menu-card-img w-60 h-75 rotate-20 relative"
+        />
+      </div>
+
       <div className="absolute flex flex-col items-center justify-center bg-card">
         <div className="inner_card"></div>
-        <p className="text-xl text-center self-center">hello </p>
       </div>
     </>
   );
